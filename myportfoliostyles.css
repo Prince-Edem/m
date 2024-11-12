@@ -7,6 +7,11 @@ html {
   scroll-behavior: smooth;
   font-family: sans-serif;
 }
+@media (max-width: 650px) {
+  html {
+    font-size: 10px;
+  }
+}
 a {
   color: #ffff;
 }
@@ -32,6 +37,7 @@ nav > ul {
 @media (max-width: 650px) {
   nav > ul {
     display: flex;
+    justify-content: center;
   }
 }
 nav a {
@@ -97,6 +103,14 @@ img {
   height: 350px;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+@media (max-width: 650px) {
+  img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
 .project-a {
   text-decoration: none;
